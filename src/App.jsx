@@ -1,21 +1,11 @@
-import { useState } from 'react'
-import './App.css'
+import NetflixSeries from "./components/NetflixSeries";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export const App = () => {
   return (
     <>
-   
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-       
-      </div>
+      
+      <NetflixSeries />
      
     </>
   )
-}
-
-export default App
+};

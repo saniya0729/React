@@ -1,0 +1,62 @@
+[
+    {
+        "name": "My Demon",
+        "id": "my-demon",
+        "img_url": "https://i0.wp.com/www.poptokki.com/wp-content/uploads/2024/01/GEFhLwxbkAAVXd3.jpg?resize=1024%2C1024&ssl=1",
+        "rating": 9.8,
+        "description": "I am Your Demon song kang",
+        "cast": [
+            "song kang ",
+            "Dodo hi"
+        ],
+        "Watch_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.netflix.com/title/81716080&ved=2ahUKEwiio67n78qMAxUBxzgGHX1CGOMQFnoECB0QAQ&usg=AOvVaw2dQS6TFVN39rZvqqAsWxWD"
+    },
+    {
+        "name": "Stranger Things",
+        "id": "stander-things",
+        "img_url": "https://images.hindustantimes.com/rf/image_size_640x362/HT/p2/2016/07/11/Pictures/_afa6f3e2-471c-11e6-90e0-482a513bad8b.png",
+        "rating": 9.8,
+        "description": "I am Your Demon song kang",
+        "cast": [
+            "song kang",
+            "Dodo hi"
+        ],
+        "Watch_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.netflix.com/title/81716080&ved=2ahUKEwiio67n78qMAxUBxzgGHX1CGOMQFnoECB0QAQ&usg=AOvVaw2dQS6TFVN39rZvqqAsWxWD"
+    },
+    {
+        "name": "Lovely Runner",
+        "id": "lovely-runner",
+        "img_url": "https://imgeng.jagran.com/images/2024/05/23/article/image/Lovely%20Runner%20(3)-1716441059447.jpg",
+        "rating": 9.8,
+        "description": "I am Your Demon song kang",
+        "cast": [
+            "song kang",
+            "Dodo hi"
+        ],
+        "Watch_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.netflix.com/title/81716080&ved=2ahUKEwiio67n78qMAxUBxzgGHX1CGOMQFnoECB0QAQ&usg=AOvVaw2dQS6TFVN39rZvqqAsWxWD"
+    },
+    {
+        "name": "Farzi",
+        "id": "farzi",
+        "img_url": "https://upload.wikimedia.org/wikipedia/en/d/d2/Farzi.jpeg",
+        "rating": 9.8,
+        "description": "I am Your Demon song kang",
+        "cast": [
+            "song kang",
+            "Dodo hi"
+        ],
+        "Watch_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.netflix.com/title/81716080&ved=2ahUKEwiio67n78qMAxUBxzgGHX1CGOMQFnoECB0QAQ&usg=AOvVaw2dQS6TFVN39rZvqqAsWxWD"
+    },
+    {
+        "name": "Peaky Blinders",
+        "id": "peaky-blinders",
+        "img_url": "https://m.media-amazon.com/images/S/pv-target-images/f7ffc4ffa21f3ae373bacf9502771bf724f2503b177e415d8aacc56d6ca05970.jpg",
+        "rating": 9.8,
+        "description": "I am Your Demon song kang",
+        "cast": [
+            "song kang",
+            "Dodo hi"
+        ],
+        "Watch_url": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.netflix.com/title/81716080&ved=2ahUKEwiio67n78qMAxUBxzgGHX1CGOMQFnoECB0QAQ&usg=AOvVaw2dQS6TFVN39rZvqqAsWxWD"
+    }
+]

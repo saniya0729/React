@@ -1,31 +1,44 @@
-import seriesData from "../api/seriesData.json"
-const NetflixSeries=()=>{
-    return(
-       <ul>
-        { 
-            seriesData.map((curElem)=>{
-              return(  
-              <li>
-                    <div>
-             <img src={curElem.img_url} alt="" width="40%" height="40%"/>
-         </div>
-         <h2>Name: {curElem.name}</h2>
-         <h3>Ratings: {curElem.rating}</h3>
-         <p>Summary: {curElem.description}</p>
-        <p>Genre: {curElem.genre}</p>
-         <p>Cast: {curElem.cast }</p>
-         <a href={curElem.Watch_url} target="_black">
-            <button>Watch Now</button>
-        </a>
-                </li>
-            )
-            })
-        }
-       </ul>
-    )
-}
+import seriesData from "../api/seriesData.json";
+import { SeriesCard } from "./SeriesCard";
+
+const NetflixSeries = () => {
+    return (
+        <ul className="grid grid-three--cols">
+            {seriesData.map((curElem) => {
+                return (
+                    <SeriesCard key={curElem.id} data ={curElem}/>
+                )
+            })}
+        </ul>
+    );
+};
 export default NetflixSeries;
 
+// import seriesData from "../api/seriesData.json";
+// const NetflixSeries = () => {
+//     return (
+//         <ul>
+//             {seriesData.map((curElem) => {
+//                 return (
+//                     <li>
+//                         <div>
+//                             <img src={curElem.img_url} alt="" width="40%" height="40%" />
+//                         </div>
+//                         <h2>Name: {curElem.name}</h2>
+//                         <h3>Ratings: {curElem.rating}</h3>
+//                         <p>Summary: {curElem.description}</p>
+//                         <p>Genre: {curElem.genre}</p>
+//                         <p>Cast: {curElem.cast}</p>
+//                         <a href={curElem.Watch_url} target="_black">
+//                             <button>Watch Now</button>
+//                         </a>
+//                     </li>
+//                 );
+//             })}
+//         </ul>
+//     );
+// };
+// export default NetflixSeries;
 
 // import seriesData from "../api/seriesData.json"
 // const NetflixSeries=()=>{
@@ -47,7 +60,6 @@ export default NetflixSeries;
 // }
 // export default NetflixSeries;
 
-
 // const NetflixSeries = () => {
 //     const name = "My Demon";
 //     const rating = 9.8;
@@ -60,18 +72,18 @@ export default NetflixSeries;
 //     let age = 18;
 //     // let canWatch = "Not Available";
 //     // if(age>=18) canWatch="Watch Now"
-    
+
 //     const canWatch=()=>{
 //     if(age>=18) return "Watch Now";
 //     return "Not Available"
 //   }
-  
+
 //     // if (age < 18) {
 //     //   return (
 //     //     <div>
 //     //       <div>
 //     //         <img src="https://i0.wp.com/www.poptokki.com/wp-content/uploads/2024/01/GEFhLwxbkAAVXd3.jpg?resize=1024%2C1024&ssl=1" width="40%" height="40%" alt="" />
-  
+
 //     //       </div>
 //     //       <h2>Name : {name}</h2>
 //     //       <h3>Rating: {5 + 4.8}</h3>
@@ -81,13 +93,12 @@ export default NetflixSeries;
 //     //     </div>
 //     //   )
 //     // }
-    
-     
+
 //       return (
 //         <div>
 //           <div>
 //             <img src="https://i0.wp.com/www.poptokki.com/wp-content/uploads/2024/01/GEFhLwxbkAAVXd3.jpg?resize=1024%2C1024&ssl=1" width="40%" height="40%" alt="" />
-    
+
 //           </div>
 //           <h2>Name : {name}</h2>
 //           <h3>Rating: {5 + 4.8}</h3>
@@ -108,4 +119,3 @@ export default NetflixSeries;
 //   export const Footer =()=>{
 //     return <p>Copyright @thapatechnical</p>
 //   }
-

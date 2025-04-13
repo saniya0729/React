@@ -1,35 +1,28 @@
 import styles from "./Netflix.module.css";
-<<<<<<< HEAD
 import styled from "styled-components";
 
 // Destructuring in jsx
 export const SeriesCard = ({ data }) => {
   const { img_url, name, rating, description, cast, Watch_url } = data;
-=======
 
 // Destructuring in jsx
-export const SeriesCard = ({ data }) => {
-  const { img_url, name, rating, description, genre, cast, Watch_url } = data;
->>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
+// export const SeriesCard = ({ data }) => {
+//   const { img_url, name, rating, description, genre, cast, Watch_url } = data;
   // inline css
   const btn_style = {
     padding: "1.2rem 2.4rem",
     border: "none",
     fontSize: "1.6rem",
-<<<<<<< HEAD
     backgroundColor: `${rating >= 8.5 ? "rgb(7, 216, 129)" : "rgb(233, 218, 7)"
       }`,
-=======
     backgroundColor: `${
       rating >= 8.5 ? "rgb(7, 216, 129)" : "rgb(233, 218, 7)"
     }`,
->>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
     color: "var(--heading-color: #000a19;)",
   };
   const rating_style = {
     fontSize: "1.5rem",
   };
-<<<<<<< HEAD
   // styled component and object
   // const NameStyle= styled.h2({
   //   color:"red"
@@ -38,8 +31,6 @@ export const SeriesCard = ({ data }) => {
   // pure css in template literal
   const NameStyle = styled.h2`
   color:red;`
-=======
->>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
   // const ratingClass = rating >= 8.5 ? "super_hit": "average";
   const ratingClass = rating >= 8.5 ? styles.super_hit : styles.average;
   return (
@@ -49,11 +40,8 @@ export const SeriesCard = ({ data }) => {
       </div>
       <i class="fa fa-user-circle-o" aria-hidden="true"></i>
       <div className={styles["card-content"]}>
-<<<<<<< HEAD
         <NameStyle>Name: {name}</NameStyle>
-=======
         <h2>Name: {name}</h2>
->>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
         {
           <h5>
             Ratings:{" "}
@@ -62,11 +50,8 @@ export const SeriesCard = ({ data }) => {
           // { <h5>Ratings: <span className= {`rating ${rating >= 8.5 ? "super_hit": "average"}`}>{rating}</span></h5>
         }{" "}
         {/* inline css */}
-<<<<<<< HEAD
         <p style={{ margin: "1.2red 0" }} className="text-3xl font-bold underline text-purple-500">Summary: {description}</p>
-=======
         <p style={{ margin: "1.2red 0" }}>Summary: {description}</p>
->>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
         <p>Cast: {cast}</p>
         <a href={Watch_url} target="_black">
           <button style={btn_style}>Watch Now</button>

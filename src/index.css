@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 *{
+=======
+* {
+>>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -66,6 +70,12 @@ a {
 }
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
+<<<<<<< HEAD
+=======
+}
+.grid-three--cols {
+  grid-template-columns: repeat(3, 1fr);
+>>>>>>> d48129672e54e9c2a1c219d1092e2893cf661fb2
 }
 .grid-three--cols {
   grid-template-columns: repeat(3, 1fr);

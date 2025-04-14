@@ -13,6 +13,9 @@ import { LiftingTheStateUp } from './components/LiftingTheStateUp.jsx'
 import { ToggleSwitch } from './components/ToggleSwitch.jsx'
 
 import { RegistrationForm } from './components/hooks/Forms/Registration.jsx'
+import { RegistrationFormReact } from './components/hooks/Forms/RegistrationReact.jsx'
+import { LoginForm } from './components/hooks/Forms/LoginForm.jsx'
+import { ContactForm } from './components/hooks/Forms/contactForm.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -26,6 +29,9 @@ createRoot(document.getElementById('root')).render(
      {/* <DerivedState/> */}
      {/* <LiftingTheStateUp/> */}
      {/* <ToggleSwitch/> */}
-     <RegistrationForm/>
+     {/* <RegistrationForm/> */}
+     {/* <RegistrationFormReact/> */}
+     {/* <LoginForm/> */}
+     <ContactForm/>
   </StrictMode>,
 )
